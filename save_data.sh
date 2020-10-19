@@ -1,3 +1,5 @@
+#!/bin/bash
+
 remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 git config http.sslVerify false
 git config user.name "Automated Publisher"
