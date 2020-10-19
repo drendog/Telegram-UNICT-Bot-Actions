@@ -8,11 +8,6 @@ git remote add publisher "${remote_repo}"
 git show-ref # useful for debugging
 git branch --verbose
 
-cd ..
-ls
-cd "${GITHUB_REPOSITORY}"
-ls
-
 git lfs install
 
 git checkout ${BRANCH_NAME}
