@@ -39,10 +39,12 @@ def main():
 
 	#JobQueue
 	j = updater.job_queue
-	j.run_repeating(scrape_notices, interval=config_map["news_interval"], first=0) # job_news
+	j.run_once(scrape_notices,0)
+	#j.run_repeating(scrape_notices, interval=config_map["news_interval"], first=0) # job_news
 
 	updater.start_polling()
-	updater.idle()
+	updater.stop()
+	#updater.idle()
 
 if __name__ == '__main__':
     main()

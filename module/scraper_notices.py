@@ -283,11 +283,12 @@ def scrape_notices(context):
                                 else:
                                     for notice in notices:
                                         pending_file_handle.write("%s\n" % notice)
-
+                            
                             pending_notice = pull_pending_notice(pending_path)
-                            if pending_notice:
+                            while pending_notice:
                                 get_notice_content(pending_notice, base_url, archive_path, notice_path)
-
+                                pending_notice = pull_pending_notice(pending_path)
+                                spam_news(context, notice_path, page["channels"])
                     try:
                         approve_group_chatid = page["approve_group_chatid"]
                     except KeyError:
