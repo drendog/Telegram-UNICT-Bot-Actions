@@ -1,0 +1,21 @@
+token: ""
+dev_group_chatid:
+news_interval: 5
+max_messages_length: 250
+max_length_footer: " ... \n\n<b>Clicca il link in cima al post per continuare a leggere</b>"
+
+notices_urls: {
+    "DMI": {
+        "pages": {
+            "Informatica L-31": { # page name has 22 charaters as limit
+                "approve_group_chatid": 00000, # NOT MANDATORY 
+                "urls": [
+                    "http://web.dmi.unict.it/corsi/l-31/avvisi",
+                ],
+                "channels": [
+                    "-298020067",
+                ]
+            },
+        }
+    },
+}

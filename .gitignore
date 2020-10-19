@@ -1,7 +1,7 @@
 logs/*
 data/avvisi/*
 module/*.pyc
-config/settings.yaml
+#config/settings.yaml
 .vscode
 .sonarlint
 module/__pycache__/*
