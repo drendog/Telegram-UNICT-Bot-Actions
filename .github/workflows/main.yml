@@ -33,7 +33,7 @@ jobs:
           
       - name: Setup
         run: |
-          apt-get install python3-setuptools
+          sudo apt-get install python3-setuptools
           python3 -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
       
