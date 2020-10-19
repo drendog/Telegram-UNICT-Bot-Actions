@@ -11,9 +11,11 @@ git branch --verbose
 cd ..
 ls
 cd "${GITHUB_REPOSITORY}"
+ls
 
 git lfs install
 
+git checkout ${BRANCH_NAME}
 git add .
 timestamp=$(date -u)
 git commit -m "Scaper Update: ${timestamp} ${GITHUB_SHA}" || exit 0
