@@ -10,7 +10,7 @@ git branch --verbose
 
 cd ..
 ls
-cd ${GITHUB_REPOSITORY}
+cd "${GITHUB_REPOSITORY}"
 
 git lfs install
 
