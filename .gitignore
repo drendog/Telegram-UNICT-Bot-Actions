@@ -1,5 +1,5 @@
 logs/*
-data/avvisi/*
+#data/avvisi/*
 module/*.pyc
 #config/settings.yaml
 .vscode
