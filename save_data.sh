@@ -1,6 +1,6 @@
 #!/bin/bash
 
-remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+remote_repo="https://${{GITHUB_ACTOR}}:${{GITHUB_TOKEN}}@github.com/${{GITHUB_REPOSITORY}}.git"
 git config http.sslVerify false
 git config user.name "Scaper Update"
 git config user.email "actions@users.noreply.github.com"
