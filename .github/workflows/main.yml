@@ -38,4 +38,12 @@ jobs:
           if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
       
       - name: Run
-        run: python3 ./main.py
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+        run: python3 ./main.py "$TOKEN"
+
+      - name: update Repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./save_data.sh
+
