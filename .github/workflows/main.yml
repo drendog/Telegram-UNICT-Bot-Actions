@@ -7,7 +7,7 @@ name: Scraping Routine
 on:
   push:
   schedule:
-    - cron:  '*/8 * * * *' # every day at 8am
+    - cron:  '*/8 * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -46,17 +46,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo ${GITHUB_REF}
           remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git config http.sslVerify false
           git config user.name "Scaper Update"
           git config user.email "actions@users.noreply.github.com"
           git remote add publisher "${remote_repo}"
-          git show-ref # useful for debugging
-          git branch --verbose
-          git lfs install
           git checkout ${GITHUB_REF}
           git add .
           timestamp=$(date -u)
-          git commit -m "Scaper Update: ${timestamp} ${GITHUB_SHA}" || exit 0
-          git push origin HEAD:${GITHUB_REF}
+          git commit -m "Scraper Update: ${timestamp} ${GITHUB_SHA}" || exit 0
+          git push --all origin HEAD:${GITHUB_REF}
