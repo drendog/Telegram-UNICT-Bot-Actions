@@ -2,6 +2,7 @@
 
 # Telegram libraries
 import telegram
+import sys
 from telegram import Update, Bot
 from telegram.ext import Updater, Filters, MessageHandler, CommandHandler, CallbackQueryHandler, CallbackContext
 
@@ -16,13 +17,10 @@ from module.callback_functions import callback_handle
 
 import logging
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-bot = telegram.Bot(TOKEN)
-
 def main():
-	updater = Updater(TOKEN, request_kwargs={'read_timeout': 20, 'connect_timeout': 20}, use_context=True)
+	token = sys.argv[1] if len(sys.argv) > 1 else TOKEN
+
+	updater = Updater(token, request_kwargs={'read_timeout': 20, 'connect_timeout': 20}, use_context=True)
 	dp = updater.dispatcher
 	dp.add_handler(MessageHandler(Filters.all, logging_message),1)
 
