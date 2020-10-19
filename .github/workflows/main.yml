@@ -33,8 +33,9 @@ jobs:
           
       - name: Setup
         run: |
+          apt-get install python3-setuptools
           python3 -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
       
       - name: Run
-        run: python ./main.py
+        run: python3 ./main.py
