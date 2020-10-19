@@ -45,5 +45,5 @@ jobs:
       - name: update Repo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: sudo ./save_data.sh
+        run: sudo sh ./save_data.sh
 
