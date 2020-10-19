@@ -2,3 +2,40 @@ HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded 
 HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /l-35 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fea6c1d9c88>: Failed to establish a new connection: [Errno -2] Name or service not known',))
 HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /lm-18 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fea6c1d9780>: Failed to establish a new connection: [Errno -2] Name or service not known',))
 HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /lm-40 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fea6c1d9ef0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /l-31 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f971808de48>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /l-35 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f971808ddd8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /lm-18 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f971808dd30>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='web.dmi.unict.itcorsi', port=80): Max retries exceeded with url: /lm-40 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f971808deb8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+'NoneType' object has no attribute 'find_all'
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /l-8-ele (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9718972438>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /l-9 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9718972d68>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /l-8-inf (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97189724a8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-25 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9718972d68>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-28 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97189724a8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-29 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f96f3efca20>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-27 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f96f3efc978>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-32 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97189720b8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /l-8-ele (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9c18>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /l-9 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9128>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /l-8-inf (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9c18>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-25 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9d68>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-28 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9278>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-29 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9b00>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-27 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97180a9d68>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+HTTPConnectionPool(host='www.dieei.unict.itcorsi', port=80): Max retries exceeded with url: /lm-32 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f97189c7860>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+Flood control exceeded. Retry in 9.0 seconds -298020067
+Flood control exceeded. Retry in 3.0 seconds -298020067
+Flood control exceeded. Retry in 35.0 seconds -298020067
+Flood control exceeded. Retry in 21.0 seconds -298020067
+Flood control exceeded. Retry in 20.0 seconds -298020067
+Flood control exceeded. Retry in 18.0 seconds -298020067
+Flood control exceeded. Retry in 17.0 seconds -298020067
+Flood control exceeded. Retry in 15.0 seconds -298020067
+Flood control exceeded. Retry in 29.0 seconds -298020067
+Flood control exceeded. Retry in 28.0 seconds -298020067
+Flood control exceeded. Retry in 26.0 seconds -298020067
+Flood control exceeded. Retry in 25.0 seconds -298020067
+Flood control exceeded. Retry in 24.0 seconds -298020067
+Flood control exceeded. Retry in 22.0 seconds -298020067
+Flood control exceeded. Retry in 21.0 seconds -298020067
+Flood control exceeded. Retry in 9.0 seconds -298020067
