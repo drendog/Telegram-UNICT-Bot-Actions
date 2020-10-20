@@ -10,13 +10,13 @@ notices_urls: {
             "Notizie": {
                 "urls": ["http://web.dmi.unict.it/notizie"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Eventi": {
                 "urls": ["http://web.dmi.unict.it/tuttiglieventi"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Informatica L-31": {
@@ -26,8 +26,8 @@ notices_urls: {
                     "http://web.dmi.unict.it/corsi/l-31/avvisi-tirocini"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Informatica LM-18": {
                 "urls": [
@@ -36,8 +36,8 @@ notices_urls: {
                     "http://web.dmi.unict.it/corsi/lm-18/avvisi-tirocini"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Matematica L-35": {
                 "urls": [
@@ -46,8 +46,8 @@ notices_urls: {
                     "http://web.dmi.unict.it/corsi/l-35/avvisi-tirocini"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Matematica LM-40": {
                 "urls": [
@@ -56,8 +56,8 @@ notices_urls: {
                     "http://web.dmi.unict.it/corsi/lm-40/avvisi-tirocini"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
         }
     },
@@ -67,29 +67,29 @@ notices_urls: {
                 "approve_group_chatid": -370115104,
                 "urls": ["http://www.dfa.unict.it/notizie"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Eventi": {
                 "approve_group_chatid": -370115104,
                 "urls": ["http://www.dfa.unict.it/eventi"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Fisica L-30": {
                 "approve_group_chatid": -370115104,
                 "urls": ["http://www.dfa.unict.it/corsi/L-30/avvisi/"],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Fisica LM-17": {
                 "approve_group_chatid": -370115104,
                 "urls": ["http://www.dfa.unict.it/corsi/LM-17/avvisi/"],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
         }
     },
@@ -102,8 +102,8 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/l-8-inf/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Ingegneria Elettronica L-8": {
                 "urls": [
@@ -111,7 +111,7 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/l-8-ele/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Ingegneria Industriale L-9": {
@@ -120,8 +120,8 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/l-9/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "AUTOMATION ENGINEERING AND CONTROL OF COMPLEX SYSTEMS LM-25": {
                 "urls": [
@@ -129,8 +129,8 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/lm-25/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "ELECTRICAL ENGINEERING LM-28": {
                 "urls": [
@@ -138,8 +138,8 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/lm-28/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "INGEGNERIA DELLE TELECOMUNICAZIONI LM-27": {
                 "urls": [
@@ -147,8 +147,8 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/lm-27/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "INGEGNERIA INFORMATICA LM-32": {
                 "urls": [
@@ -156,8 +156,8 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/lm-32/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "INGEGNERIA ELETTRONICA LM-29": {
                 "urls": [
@@ -165,19 +165,19 @@ notices_urls: {
                     "http://www.dieei.unict.it/corsi/lm-29/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Notizie": {
                 "urls": ["http://www.dieei.unict.it/notizie"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Eventi": {
                 "urls": ["http://www.dieei.unict.it/eventi"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
         }
@@ -187,13 +187,13 @@ notices_urls: {
             "Notizie": {
                 "urls": ["http://www.dei.unict.it/Comunicazioni/notizie-in-evidenza"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Eventi": {
                 "urls": ["http://www.dei.unict.it/Comunicazioni/elenco-eventi_dei"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Economia L-33": {
@@ -202,8 +202,8 @@ notices_urls: {
                     "http://www.dei.unict.it/corsi/l-33/avvisi-docente"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "EconomiaAziendale L-18": {
                 "urls": [
@@ -211,8 +211,8 @@ notices_urls: {
                     "http://www.dei.unict.it/corsi/l-18/avvisi-docente"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Data Science for Management LM-91": {
                 "urls": [
@@ -220,8 +220,8 @@ notices_urls: {
                     "http://www.dei.unict.it/corsi/lm-91/avvisi-docente"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Direzione Aziendale LM-77": {
                 "urls": [
@@ -229,8 +229,8 @@ notices_urls: {
                     "http://www.dei.unict.it/corsi/lm-77-dir/avvisi-docente"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Economia e Management del Territorio e del Turismo LM-56": {
                 "urls": [
@@ -238,8 +238,8 @@ notices_urls: {
                     "http://www.dei.unict.it/corsi/lm-56/avvisi-docente"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Finanza Aziendale LM-77": {
                 "urls": [
@@ -247,8 +247,8 @@ notices_urls: {
                     "http://www.dei.unict.it/corsi/lm-56-fin/avvisi-docente"
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
         }
     },
@@ -257,13 +257,13 @@ notices_urls: {
             "Notizie": {
                 "urls": ["http://www.dsc.unict.it/notizie"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Eventi": {
                 "urls": ["http://www.dsc.unict.it/eventi"],
                 "channels": [
-                    "-298020067",
+                    "-298020067", "@unicheattibot"
                 ],
             },
             "Chimica L-27": {
@@ -272,8 +272,8 @@ notices_urls: {
                     "http://www.dsc.unict.it/corsi/l-27/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Chimica Industriale L-17": {
                 "urls": [
@@ -281,8 +281,8 @@ notices_urls: {
                     "http://www.dsc.unict.it/corsi/l-27-ind/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Scienze Chimiche LM-54": {
                 "urls": [
@@ -290,8 +290,8 @@ notices_urls: {
                     "http://www.dsc.unict.it/corsi/lm-54-sc/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Chimica Biomolecolare LM-54": {
                 "urls": [
@@ -299,8 +299,8 @@ notices_urls: {
                     "http://www.dsc.unict.it/corsi/lm-54-bio/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Chimica dei Materiali LM-54": {
                 "urls": [
@@ -308,8 +308,8 @@ notices_urls: {
                     "http://www.dsc.unict.it/corsi/lm-54-mat/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
             "Chimica Organica e Bioorganica LM-54": {
                 "urls": [
@@ -317,8 +317,8 @@ notices_urls: {
                     "http://www.dsc.unict.it/corsi/lm-54-org/avvisi-docente",
                 ],
                 "channels": [
-                    "-298020067",
-                ]
+                    "-298020067", "@unicheattibot"
+                ],
             },
         }
     },
