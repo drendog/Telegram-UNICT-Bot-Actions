@@ -326,14 +326,14 @@ notices_urls: {
       "pages": {
           "Notizie": {
               "urls": ["http://www.lex.unict.it/it/in-evidenza"],
-              "channels": [
-                    "-298020067",
+                "channels": [
+                    "-298020067", "@unicheattibot"
                 ],
           },
           "Eventi": {
               "urls": ["http://www.lex.unict.it/it/eventi"],
-              "channels": [
-                    "-298020067",
+                "channels": [
+                    "-298020067", "@unicheattibot"
                 ],
           },
           "Giurisprudenza LMG-01": {
