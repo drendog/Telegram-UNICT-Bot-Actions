@@ -7,7 +7,7 @@ name: Scraping Routine
 on:
   push:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/20 * * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -44,6 +44,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git remote add publisher "${remote_repo}"
           git checkout ${GITHUB_REF}
+          git pull
           git add .
           timestamp=$(date -u)
           git commit -m "Scraper Update: ${timestamp} ${GITHUB_SHA}" || exit 0
