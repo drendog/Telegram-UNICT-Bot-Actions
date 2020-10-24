@@ -43,7 +43,7 @@ jobs:
           git config user.name "Scraper Update"
           git config user.email "actions@users.noreply.github.com"
           git remote add publisher "${remote_repo}"
-          git checkout HEAD:${GITHUB_REF}
+          git checkout ${GITHUB_REF}
           git pull HEAD:${GITHUB_REF}
           git add .
           timestamp=$(date -u)
