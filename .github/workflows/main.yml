@@ -45,7 +45,8 @@ jobs:
           git config advice.detachedHead false
           git remote add publisher "${remote_repo}"
           git checkout ${GITHUB_REF}
-          git pull ${GITHUB_REF}
+          git fetch
+          git merge ${GITHUB_REF}
           git add .
           timestamp=$(date -u)
           git commit -m "Scraper Update: ${timestamp} ${GITHUB_SHA}" || exit 0
