@@ -1,5 +1,5 @@
 # Telegram-UNICT-Bot
-Un bot di Telegram per l'Università  di Catania
+Un bot di Telegram per l'Università di Catania
 
 # Canali Telegram supportati
 
