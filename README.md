@@ -41,8 +41,6 @@ Dipartimento di Scienze Umanistiche (DISUM)
 Medicina e Chirurgia (chirmed) e Scuola Facoltà di Medicina
 - [@medicina_unict](https://t.me/medicina_unict)
 
-
-
 ---  
 
 ### ERSU NEWS
